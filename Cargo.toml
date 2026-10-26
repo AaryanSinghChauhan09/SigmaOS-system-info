@@ -1,0 +1,15 @@
+[package]
+name = "sigmaos-system_info"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Project"]
+description = "SigmaOS system_info"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-system_info"
+readme = "README.md"
+
+[dependencies]
+sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
+
+[profile.release]
+opt-level = 3
