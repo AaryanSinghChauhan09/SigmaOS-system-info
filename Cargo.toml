@@ -1,12 +1,14 @@
 [package]
-name = "sigmaos-system_info"
+name = "sigmaos-system-info"
 version = "0.1.0"
 edition = "2021"
 authors = ["SigmaOS Project"]
-description = "SigmaOS system_info"
+description = "System information"
 license = "GPL-3.0-or-later"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-system_info"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-system-info"
 readme = "README.md"
+keywords = ["system", "info", "hardware"]
+categories = ["os"]
 
 [dependencies]
 sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }

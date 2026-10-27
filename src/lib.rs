@@ -1,6 +1,6 @@
-//! SigmaOS system_info
-//! system_info component
+//! SigmaOS System Info
+//! System information
 
 pub mod system_info;
 
-pub use system_info::System_info;
+pub use system_info::SystemInfo;
