@@ -3,4 +3,4 @@
 
 pub mod system_info;
 
-pub use system_info::SystemInfo;
+pub use system_info::SystemInfoManager;
