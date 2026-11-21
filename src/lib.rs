@@ -7,6 +7,9 @@
 
 #![forbid(unsafe_code)]
 
+/// System information: OS name/version, kernel, hostname, uptime.
+pub mod sigmasysteminfo;
+
 use std::fmt;
 /// Errors for `ToolError` operations. Fail-fast: invalid input is rejected.
 #[derive(Debug, Clone, PartialEq, Eq)]
